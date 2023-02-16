@@ -1,7 +1,10 @@
+import dotenv from 'dotenv'
+import { Configuration, OpenAIApi } from "openai";
+dotenv.config()
+
 const run = async () => {
-  const { Configuration, OpenAIApi } = require("openai");
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: process.env.API_KEY
   });
   const openai = new OpenAIApi(configuration);
 
