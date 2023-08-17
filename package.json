@@ -20,7 +20,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "koa": "^2.14.1",
-    "openai": "^3.1.0"
+    "openai": "^4.0.0"
   },
   "homepage": "https://github.com/citrus327/chatgpt-test#readme"
 }
